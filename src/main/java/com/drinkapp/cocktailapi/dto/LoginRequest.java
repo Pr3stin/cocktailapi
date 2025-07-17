@@ -1,11 +1,9 @@
-// src/main/java/com/drinkapp/cocktailapi/dto/LoginRequest.java
 package com.drinkapp.cocktailapi.dto;
 
 public class LoginRequest {
     private String email;
     private String password;
 
-    // Constructors
     public LoginRequest() {}
 
     public LoginRequest(String email, String password) {
@@ -13,7 +11,6 @@ public class LoginRequest {
         this.password = password;
     }
 
-    // Getters and Setters
     public String getEmail() {
         return email;
     }
